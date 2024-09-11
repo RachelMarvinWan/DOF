@@ -6,9 +6,15 @@ document.addEventListener('DOMContentLoaded', function() {
         if (userData.userOrg === 'DOF') {
             document.getElementById('DOF-dashboard').style.display = 'block';
         }
-        else if (userData.userOrg === 'Penang Institute') {
+        if (userData.userOrg === 'Penang Institute') {
             document.getElementById('PenangInstitute-dashboard').style.display = 'block';
+            
+        if (userData.userOrg === 'Admin'){
+            document.getElementById('mobile-dof-accounting').style.display = 'block';
+            document
         }
+
+}
         
     } else {
         // Redirect to login page if user data is not found
