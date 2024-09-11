@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (userData) {
         // Control dashboard based on user organization
         if (userData.userOrg === 'DOF') {
-            document.getElementById('DOF-history').style.display = 'block';
+            document.getElementById('DOF-history').style.display = 'allow';
         }
         else if (userData.userOrg === 'Penang Institute') {
-            document.getElementById('PenangInstitute-history').style.display = 'block';
+            document.getElementById('PenangInstitute-history').style.display = 'allow';
         }
         
     } 
