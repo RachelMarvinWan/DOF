@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
         if (userData.userOrg === 'Admin'){
             document.getElementById('mobile-dof-accounting').style.display = 'block';
-            document
+            document.getElementById('sidebar-dof-accounting').style.display= 'block';
         }
 
 }
