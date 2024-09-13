@@ -4630,7 +4630,7 @@ input[type="file"] {
 
 .table-container {
     overflow-x: auto;
-    max-height: 100px;
+    max-height: 200px;
     border-radius: 8px;
 }
 
