@@ -580,6 +580,13 @@
                               <div class="table-data__tool">
                                   <div class="table-data__tool-left">
                                       <div class="rs-select2--light rs-select2--md">
+                                        <select class="js-select2" name="penLogger" id="dropdownPenLogger">
+                                          <option value="" selected>All Tanks</option>
+                                          <option value="Tank 1">Tank 1</option>
+                                          <option value="Tank 2">Tank 2</option>
+                                          <option value="Tank 3">Tank 3</option>
+                                        </select>
+                                        <div class="dropDownSelect2"></div>
                                       </div>
                                   </div>
                               </div>
@@ -612,6 +619,9 @@
                                         <th>pH</th>
                                       </tr>
                                     </thead>
+                                    <tbody id="penHistoryBody">
+                                        <!-- Penang Institute History will be dynamically inserted here -->
+                                    </tbody>
                                   </table>
                               </div>
                           </div>
