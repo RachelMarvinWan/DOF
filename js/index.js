@@ -10,8 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('PenangInstitute-dashboard').style.display = 'block';
             
         if (userData.userOrg === 'Admin'){
-            document.getElementById('mobile-dof-accounting').style.display = 'block';
-            document.getElementById('sidebar-dof-accounting').style.display= 'block';
+            document.getElementById('Admin-dashboard').style.display = 'block';
         }
 
 }
